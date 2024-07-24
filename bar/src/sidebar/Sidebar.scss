@@ -1,0 +1,81 @@
+// Variables (optional, for reusability)
+$background-color: #ffffff;
+$text-color: var(--gray-900, #18181B);
+;
+$highlight-color: #F78B3E;
+$transition-time: 0.5s;
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 130vh;
+}
+
+main {
+    width: 100%;
+    padding: 20px;
+    font-family: "Plus Jakarta Sans";
+}
+
+.sidebar {
+    background: $background-color;
+    color: $text-color;
+    height: 130vh;
+    width: 200px;
+    transition: all $transition-time;
+
+    .top_section {
+        display: flex;
+        align-items: center;
+        padding: 20px 15px;
+
+        .eagle_yard_logo {
+            width: '130px';
+            height: 'auto';
+        }
+
+        .bars {
+            display: flex;
+            font-size: 25px;
+            margin-left: 50px;
+            background-color: #F78B3E;
+            padding: 6px;
+            border-radius: 50px;
+            color: #ffffff;
+            cursor: pointer;
+        }
+    }
+
+    .link {
+        display: flex;
+        color: $text-color;
+        padding: 10px 15px;
+        gap: 15px;
+        transition: all $transition-time;
+
+        &:hover {
+            background: $highlight-color;
+            color: #000;
+        }
+
+        &.active {
+            background: $highlight-color;
+            color: #000;
+        }
+    }
+
+    .icon,
+    .link_text {
+
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 21px;
+    }
+}

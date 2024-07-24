@@ -1,0 +1,84 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    border-radius: 8px;
+    align-items: center;
+    background: #FFF;
+    box-shadow: 0px 10px 13px 0px rgba(17, 38, 146, 0.05);
+    height: 171px;
+    width: 366px;
+    justify-content: center;
+    padding: 24px;
+}
+
+.inner_card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 151px;
+    width: 346px;
+}
+
+.main_heading {
+    color: #239654;
+    font-family: "Plus Jakarta Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.second_container {
+    display: flex;
+justify-content: center;
+align-items: center;
+gap: 155px;
+}
+
+.number_count {
+    color: #000;
+    font-family: "Plus Jakarta Sans";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0px 0px 8px 0px;
+}
+
+.text_count {
+    color: #8A92A6;
+    font-family: "Plus Jakarta Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.box_container {
+    display: flex;
+    width: 59px;
+    height: 59px;
+    padding: 7.045px 7.045px 7.925px 7.925px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: #D1ECDD;
+    height: 59px;
+    width: 59px;
+}
+
+.inner_box_container {
+    display: flex;
+    width: 44.03px;
+    height: 44.03px;
+    padding: 5.045px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.icon_image {
+    flex-shrink: 0;
+    color:#349F63;
+}
